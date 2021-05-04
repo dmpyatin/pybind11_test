@@ -21,8 +21,8 @@ ext_modules = [
         ),
 ]
 
-with open("README.md", "r", encoding="utf-8") as fh:
-    long_description = fh.read()
+#with open("README.md", "r", encoding="utf-8") as fh:
+#    long_description = fh.read()
 
 setup(
     name="pybind11_test_dmpytain",
@@ -31,7 +31,7 @@ setup(
     author_email="dmpyatin@gmail.com",
     url="",
     description="A test project using pybind11",
-    long_description=long_description,
+    long_description="",
     ext_modules=ext_modules,
     extras_require={"test": "pytest"},
     # Currently, build_ext only provides an optional "highest supported C++
