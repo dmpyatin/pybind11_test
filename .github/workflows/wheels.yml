@@ -11,6 +11,7 @@ on:
       - published
 
 env:
+  CIBW_BEFORE_TEST: pip install pytest
   CIBW_TEST_COMMAND: pytest {package}/tests
 
 
