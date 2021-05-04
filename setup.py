@@ -29,7 +29,7 @@ setup(
     version=__version__,
     author="Dmitry Pyatin",
     author_email="dmpyatin@gmail.com",
-    url="",
+    url="https://github.com/dmpyatin/pybind11_test",
     description="A test project using pybind11",
     long_description=long_description,
     long_description_content_type="text/markdown",
